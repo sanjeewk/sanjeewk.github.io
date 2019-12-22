@@ -1,4 +1,4 @@
-/*Start global*/
+/* Start global */
 * {
   margin: 0;
   padding: 0;
@@ -16,11 +16,9 @@ html {
 body {
   width: 100%;
   height: 100%;
-  background-color: #c93e67;
-  background-color: #eaeaea;
-  background-color: #ddadbb;
-  color: black;
-  /* #6a1393; */
+  /* background-color: rgb(27, 27, 27); */
+  background-image: linear-gradient(0deg,#130c31,#40284c);
+  color: rgb(218, 218, 218);
   background-size: cover;
   background-repeat: repeat-x;
   overflow-x: hidden;
@@ -51,7 +49,7 @@ img {
 /*Start reusable*/
 .container {
   width: 100%;
-  max width: 1200rem;
+  /* max width: 1200rem; */
   height: 100%;
   margin: 0 auto;
   position: relative;
@@ -59,12 +57,12 @@ img {
 
 .section-heading {
   text-align: center;
-  margin-bottom: : 15rem;
+  margin-bottom: 15rem;
 }
 
 .section-heading h1 {
   font-size: 3.5rem;
-  color: black;
+  color: white;
   text-transform: uppercase;
   /* font-weight: 300; */
   position: relative;
@@ -79,7 +77,6 @@ img {
   left: 50%;
   transform: translateX(-50%);
   background-color: #c93e67;
-
 }
 
 .section-heading h1::before {
@@ -105,6 +102,7 @@ img {
 
 /*End reusable*/
 /*Start header*/
+
 header {
   width: 100%;
   height: 120vh;
@@ -116,7 +114,6 @@ header {
   position: fixed;
   top: -100vh;
   z-index: 50;
-  /* background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%); */
   background-color: #c93e67;
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
@@ -158,7 +155,7 @@ li {
   position: absolute;
   top: 5rem;
   right: 5rem;
-  width: 5rem;
+  width: 4rem;
   height: 4rem;
   display: flex;
   flex-direction: column;
@@ -173,18 +170,21 @@ li {
 }
 
 .bar {
-  background-color: #edd034;
+  background-color:#ff524e;
   width: 100%;
-  height: 3px;
+  height: 2px;
   border-radius: .8rem;
 }
 
 .bar.half {
+  /* background-color: white; */
   width: 50%;
 }
 
 .bar.start {
   transform-origin: right;
+  position: relative;
+  top: 0.5rem;
   transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
 }
 
@@ -193,6 +193,8 @@ li {
 }
 
 .bar.end {
+  position: relative;
+  bottom: 0.5rem;
   align-self: flex-end;
   transform-origin: left;
   transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
@@ -214,8 +216,9 @@ li {
 }
 
 #particles-js {
-  background-image: linear-gradient(to bottom, #4d3c69 0%, #c93e67 100%);
+  background-image: linear-gradient(0deg,#0c0722,#40284c);
   /* background-image: linear-gradient(0deg, #FF057C 0%, #321575 100%); */
+  /* clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); */
   position: absolute;
   width: 100%;
   height: 100%;
@@ -224,50 +227,55 @@ li {
 }
 
 .landing-text h1 {
-  color: white;
+  /* background-image: linear-gradient(45deg,#130c31,#40284c); */
+  /* font-weight: 400; */
+  color: #b18071;
   font-size: 8rem;
-  font-family: 'Roboto';
+  font-family: 'Playfair Display',serif;
   margin-left: 10%;
   margin-right: 10%;
-  /* background-image: radial-gradient( #F33437, #fe5196 100%); */
-  /* -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent; */
   user-select: none;
-  /* width: auto;
-  display: inline-block;
-    font-family: 'Roboto';
-    overflow: hidden; /* Ensures the content is not revealed until the animation
-    border-right: .15em solid orange; /* The typwriter cursor
-     /* Keeps the content on a single line
-    margin: 0 auto;  Gives that scrolling effect as the typing happens
-    letter-spacing: .1em; /* Adjust as needed
-    animation:
-
-      typing 4s steps(40, end),
-      blink-caret 0.5s step-end infinite; */
+  padding-bottom: 2%;
 }
 
 .landing-text h5 {
+  position: relative;
+  top: 1rem;
+  /* background-color: #ff514ea4; */
   color: white;
-  font-weight: 300;
+  padding-bottom: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  /* font-weight: 300; */;
   font-size: 3rem;
-  font-family: 'Roboto', fantasy;
-  letter-spacing: 8px;
+  font-family: 'Playfair Display',Arial;
+  letter-spacing: 2px;
+}
+
+.te{
+  /* background-image: linear-gradient(45deg,#130c31,#40284c); */
+  /* background: rgb(10, 10, 10); */
+  margin-left: 15%;
+  margin-right: 15%;
+  border-radius: 4rem;
 }
 
 #text {
+  position: relative;
+  bottom: 5rem;
   display: inline-block;
   vertical-align: middle;
-  font-size: 4rem;
   font-weight: 400;
-  color: #edd034;
-  font-family: 'Roboto';
+  color: #ff524e;
+  font-family: 'Montserrat';
   letter-spacing: 3px;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 #cursor {
-  font-size: 10rem;
+  position: relative;
+  bottom: 5rem;
+  font-size: 2rem;
   display: inline-block;
   vertical-align: middle;
   width: 5px;
@@ -285,7 +293,27 @@ li {
     background-color: blue;
   }
 }
+.buttons{
+  position: relative;
+  top: 6rem;
 
+  margin-top: 2rem;
+}
+.button{
+  font-family: 'Montseratt';
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 5px 10px;
+  background-color: #ff524e;
+  color: white;
+  border-color:  #ff524e;
+  border-radius: 10px;
+  /* padding: 2rem; */
+}
+.button2{
+}
 /*End header*/
 /*Start about*/
 #about {
@@ -305,11 +333,11 @@ li {
   justify-content: center;
   display: flex;
   width: 100%;
-  border-top: 3px solid #ac97e5;
-  border-bottom: 3px solid #ac97e5;
+  border-top: 3px solid #f0f0f0;
+  border-bottom: 3px solid #f0f0f0;
   /* background-color:  #ac97e5; */
   /* color: #ac97e5; */
-  color: black;
+  /* color: black; */
   text-align: center;
   /* text-transform: uppercase; */
   /* width: 100vw; */
@@ -328,7 +356,7 @@ li {
 }
 
 .about-heading h3 {
-  flex-grow: :2;
+  flex-grow: 2;
   font-size: 6rem;
 }
 
@@ -380,7 +408,7 @@ li {
 #services{
   height: 100%;
   width: 100%;
-  background-color: #4d3c69;
+  /* background-color: #4d3c69; */
   padding: 5rem;
   color: white;
 }
@@ -432,10 +460,10 @@ li {
 
 /*End services*/
 /*Start portfolio*/
-#portfolio{
-  background-color:#333333;
-}
-.portfolio .section-heading {
+/* #portfolio{
+  /* background-color:#333333; */
+/* }  */
+/* .portfolio .section-heading {
   margin-bottom: 5rem;
 }
 
@@ -452,7 +480,7 @@ li {
 }
 
 .portfolio-img {
-  position: ;
+  /* position: ; */
   height: 10%;
   width: 40%;
   flex: 4;
@@ -461,7 +489,7 @@ li {
 .portfolio-description {
   flex: 1;
   text-align: center;
-}
+} */
 
 .ro {
   display: flex;
@@ -528,9 +556,8 @@ input[type="submit"] {
 .copyright {
   width: 100%;
   text-align: center;
-  background-color: green;
-  padding;
-  2rem 0;
+  background-color: black;
+  padding: 2rem 0;
   position: relative;
 }
 
@@ -668,7 +695,7 @@ input[type="submit"] {
   }
 
   .about-details li {
-    margin 0 2rem;
+    /* margin 0 2rem; */
   }
 
-  /*End media queries*/
+  /*End media queries*/}
