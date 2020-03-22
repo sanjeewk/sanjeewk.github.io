@@ -195,6 +195,11 @@ section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
 }
+@media (min-width:100px){
+  section.resume-section {
+    min-height: 100vh;
+  }
+}
 
 @media (min-width: 992px) {
   #particles-js {
