@@ -1,12 +1,10 @@
 
  #particles-js {
   background-color: #ecf1ff;
-  /* background-image: linear-gradient(90deg,#40284c,#0c0722da); */
-  /* background-image: linear-gradient(90deg,#40284c,#0c0722da);
-   */
-   /* background-color: #dcbeff; */
+
    background: rgb(238,174,202);
    background: linear-gradient(247deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.9196720924698004) 35%, rgba(0,212,255,1) 100%);   width: 100%;
+   background: rgb(255, 255, 255);
   height: 100%;
   z-index: -1;
   position:absolute;
@@ -18,11 +16,11 @@
 }
 
 html, body {
-  /* max-width: 100%; */
   overflow-x: hidden;
 }
 body {
   font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Roboto Mono', monospace;
   color:  rgba(9,9,121,0.9196720924698004)
 }
 
@@ -44,18 +42,18 @@ hr {
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-weight: 500;
-  /* text-transform: uppercase; */
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
   color: #1f183d !important;
 
 }
 
 h1 {
-  /* font-size: 8rem; */
   /* font-family: 'Playfair Display',serif; */
   color: #000000!important;
-  font-size: 6.5rem;
-
+  font-size: 5.5rem;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
 }
 /* #education {
   
@@ -93,7 +91,7 @@ p.lead {
   width: 3.3rem;
   background-color: rgba(0, 0, 51, 0.92);
   color: rgb(236, 236, 236) !important;
-  border-radius: 100%;
+  /* border-radius: 100%; */
   text-align: center;
   font-size: 1.4rem;
   line-height: 3.3rem;
@@ -114,7 +112,9 @@ p.lead {
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 500;
   letter-spacing: 0.05rem;
-  text-transform: uppercase;
+  color: white !important;
+
+  /* text-transform: uppercase; */
 }
 
 #sideNav .navbar-toggler:focus {
@@ -129,7 +129,7 @@ p.lead {
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 10rem;
+    width: 11.5rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
@@ -204,11 +204,22 @@ section.resume-section .resume-item .resume-date {
 
 .text-primary {
   color: #8B0000!important;
+  color: #9b3539!important;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
 }
-
+.landing{
+  font-style: normal;
+font-weight: 700;
+letter-spacing: 20px;
+line-height: 120px;
+  /* letter-spacing: 0.2rem; */
+  font-size: 7rem;
+  font-family: 'Oswald', sans-serif;
+}
 a {
   /* color: rgb(169, 176, 255) !important; */
-  color: #ffffff!important;
+  /* color: #ffffff!important; */
 }
 .text-a{
   color:  rgba(9,9,121,0.9196720924698004)!important;
