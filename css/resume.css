@@ -1,17 +1,16 @@
 
  #particles-js {
-  background-color: #ecf1ff;
-
-   background: rgb(238,174,202);
-   background: linear-gradient(247deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.9196720924698004) 35%, rgba(0,212,255,1) 100%);   width: 100%;
-   background: rgb(255, 255, 255);
+  background: linear-gradient(247deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.9196720924698004) 35%, rgba(0,212,255,1) 100%);   width: 100%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(45deg,#130c31cc,#40284c);
+  background: linear-gradient(45deg,#130c31,#40284c);
   height: 100%;
   z-index: -1;
   position:absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   margin-bottom: 0;
 }
 
@@ -49,7 +48,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  /* font-family: 'Playfair Display',serif; */
   color: #000000!important;
   font-size: 5.5rem;
   font-family: 'Oswald', sans-serif;
@@ -58,9 +56,9 @@ h1 {
 /* #education {
   
 } */
-img{
-  /* border:1px solid black; */
-}
+/* img{
+  border:1px solid black;
+} */
 h2 {
   font-size: 3.5rem;
 }
@@ -83,18 +81,21 @@ p.lead {
   font-weight: 500;
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.5rem;
+  color: #000000!important;
 }
 
 .social-icons a {
   display: inline-block;
-  height: 3.3rem;
-  width: 3.3rem;
+  height: 2rem;
+  width: 2rem;
   background-color: rgba(0, 0, 51, 0.92);
+  background-color: #c38d7c;
+  border-radius: 5px;
   color: rgb(236, 236, 236) !important;
   /* border-radius: 100%; */
   text-align: center;
-  font-size: 1.4rem;
-  line-height: 3.3rem;
+  font-size: 1rem;
+  line-height: 2rem;
   margin-right: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
@@ -123,6 +124,7 @@ p.lead {
 
 @media (min-width: 992px) {
   #sideNav {
+    background-color: rgb(40, 32, 43)!important;
     text-align: center;
     position: fixed;
     top: 0;
@@ -198,13 +200,12 @@ section.resume-section .resume-item .resume-date {
 
 .bg-primary {
   background-color: #050616 !important;
-  /* background-color: black !important; */
-  /* background-image: linear-gradient(0deg,#0c0722,#40284c); */
 }
 
 .text-primary {
   color: #8B0000!important;
-  color: #9b3539!important;
+  color: #b44448!important;
+  color: #ff524e!important;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
 }
@@ -214,12 +215,17 @@ font-weight: 700;
 letter-spacing: 20px;
 line-height: 120px;
   /* letter-spacing: 0.2rem; */
-  font-size: 7rem;
+  font-size: 6rem;
+  color: #ecf1ff!important;
   font-family: 'Oswald', sans-serif;
 }
+.landing1{
+  color: #ecf1ff!important;
+  font-size: 1.5rem;
+
+}
 a {
-  /* color: rgb(169, 176, 255) !important; */
-  /* color: #ffffff!important; */
+  color: #ecf1ff;
 }
 .text-a{
   color:  rgba(9,9,121,0.9196720924698004)!important;
