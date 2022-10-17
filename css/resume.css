@@ -1,9 +1,14 @@
 
+ /* https://www.svgviewer.dev/ */
+ /* https://grainy-gradients.vercel.app/ */
+
  #particles-js {
   background: linear-gradient(247deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.9196720924698004) 35%, rgba(0,212,255,1) 100%);   width: 100%;
   background: rgb(255, 255, 255);
   background: linear-gradient(45deg,#130c31cc,#40284c);
-  background: linear-gradient(45deg,#130c31,#40284c);
+  background: linear-gradient(45deg,#130c31,#40284c), url(../grain4.svg); 
+  /* background: linear-gradient(138deg, #2a2ddf80, rgba(88, 1, 1, 0.637)), url(../grain4.svg);  */
+  filter: contrast(150%) brightness(100%);
   height: 100%;
   z-index: -1;
   position:absolute;
@@ -28,6 +33,7 @@ hr {
   width: 80%;
   background-color: red;
   color: linear-gradient(247deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.9196720924698004) 35%, rgba(0,212,255,1) 100%);  
+  border-color: linear-gradient(45deg, #df2a2a80, rgba(97, 92, 24, 0.637)), url(../grain2.svg);
   
 }
 
@@ -49,7 +55,7 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
   color: #000000!important;
-  font-size: 5.5rem;
+  font-size: 2rem;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
 }
