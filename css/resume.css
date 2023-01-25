@@ -5,7 +5,7 @@
  #particles-js {
   background: rgb(255, 255, 255);
   background: linear-gradient(45deg,#130c31cc,#40284c);
-  background: linear-gradient(138deg, #523af0a8, rgba(88, 1, 1, 0.81)), url(../images/grain4.svg);
+  background: linear-gradient(138deg, #523af0a8, rgba(88, 1, 1, 0.707)), url(../images/grain3.svg);
   /* background: linear-gradient(to right, #1d2b64, #f8cdda);  */
   /* background: linear-gradient(to right, #360033, #0b3693); */
   /* background: linear-gradient(138deg, #523af0a8, rgba(88, 1, 1, 0.81)); */
@@ -46,8 +46,8 @@ hr {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 16rem;
-    padding-right: 1rem;
+    padding-left: 16%;
+    padding-right: 4%;
   }
 }
 
@@ -63,7 +63,7 @@ h1 {
   color: #000000!important;
   font-size: 2rem;
   font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 /* #education {
   
@@ -101,7 +101,7 @@ p.lead {
   height: 2rem;
   width: 2rem;
   background-color: rgba(0, 0, 51, 0.92);
-  background-color: #c38d7c;
+  background-color: #621800;
   border-radius: 5px;
   color: rgb(236, 236, 236) !important;
   /* border-radius: 100%; */
@@ -134,7 +134,16 @@ p.lead {
 #sideNav .navbar-toggler:focus {
   outline-color: #c38d7c;
 }
-
+ul {
+  padding: 0;
+}
+/* ul li::before {
+  content: "•";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 15px;
+} */
 @media (min-width: 992px) {
   #sideNav {
     background-color: rgb(40, 32, 43)!important;
@@ -144,7 +153,7 @@ p.lead {
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 11.5rem;
+    width: 13%;
     height: 100vh;
   }
   #sideNav .navbar-brand {
@@ -186,6 +195,7 @@ section.resume-section {
 
 section.resume-section .resume-item .resume-date {
   min-width: none;
+  width: 2rem
 }
 
 @media (min-width: 768px) {
@@ -193,7 +203,7 @@ section.resume-section .resume-item .resume-date {
     min-height: 100vh;
   }
   section.resume-section .resume-item .resume-date {
-    min-width: 18rem;
+    min-width: 14rem;
   }
 }
 @media (min-width:100px){
@@ -219,12 +229,12 @@ section.resume-section .resume-item .resume-date {
   color: #8B0000!important;
   color: #b44448!important;
   color: #dc4543!important;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: 'Oswald', sans-serif;
 }
 .landing{
   font-style: normal;
-font-weight: 700;
+font-weight: 500;
 letter-spacing: 10px;
 line-height: 120px;
   /* letter-spacing: 0.2rem; */
