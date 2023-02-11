@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Sanjeew Kanagaraj</title>
+  <title>Sanjeew</title>
 
   <!-- Bootstrap CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,10 +30,11 @@
     <div class="landing-text">
       <section class="resume-section p-3 p-lg-3 d-flex align-items-center" id="landing">
         <div class="w-100 ">
-          <p class="landing1 mb-0">Hi! my name is </p>
-          <h1 class="mb-0 landing">Sanjeew
+          <!-- <p class="landing1 mb-0">Hi! my name is </p> -->
+          <!-- <h1 class="mb-0 landing">Sanjeew 
             <span class="text-primary"> Kanagaraj</span>
-          </h1>
+          </h1> -->
+          <h1 class="mb-0 landing">Hi! I'm <span class="text-primary">Sanjeew Kanagaraj</span>, a Software Engineer currently based in Hong Kong</h1>
           <div class="subheading mb-0 ">
             <a href="mailto:sanjeew.kanagaraj@gmail.com">sanjeew.kanagaraj@gmail.com</a>
           </div>
@@ -116,7 +117,7 @@
   <section class="resume-section p-3 p-lg-3 d-flex align-items-center" id="about">
     <div class="w-100"> 
       <h2 class="mb-5">About Me</h2>
-      <p>My name is Sanjeew and I work as a Robotics Enginner.
+      <p>My name is Sanjeew and I work as a Robotics Engineer.
         I enjoy tackling real world issues, solving them in the simplest way possible.  I try to apply my
          knowledge to build cool real world projects such as <a class="text-a" href="#RecycleNet" style="font-weight: 500;">RecycleNet</a>, a neural network desgned to simplify recycling.    
       </p>
@@ -137,7 +138,14 @@
           <div class="resume-content">
             <a href="https://robot-data.com/" class= "text-a" target="_blank"><h3 class="mb-0">Rice Robotics</h3>
             <div class="subheading mb-3">Robotics Engineer</div></a>
-            <p></p>
+            <ul class="resume-bullet">
+              <li>Developed multimedia pipelines to enable live video streaming in 4K, recording, two way intercom and deep learning inference
+                using Gstreamer, Python, and Typescript, reducing processing and memory requirements by 80%</li>
+                <li>Trained and optimized computer vision models to perform various tasks including mask, gate and intruder detection, achieving
+                  over 90% accuracy on limited hardware using PyTorch, ONNX and OpenVINO.</li>
+                  <li>Implemented graceful control loops in C++ for parking docking, improving obstacle avoidance and docking success rate
+                  </li>
+            </ul>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">April 2021 - Present</span>
@@ -148,7 +156,7 @@
           <div class="resume-content">
             <a href="https://robot-data.com/" class= "text-a" target="_blank"><h3 class="mb-0">Robot Data</h3>
             <div class="subheading mb-3">Software Engineer, Artifiial Intelligence Team</div></a>
-              <ul>
+              <ul class="resume-bullet">
                 <li>Developed computer vison models for real world use cases using Tensorflow and Pytorch, optimized and deployed inference on edge devices using Docker, TensorRT and Nvidia Deepstream SDK.</li>
                 <li>Implemented real time face mask detection in conjunction with temperature checking with precision of over 95%. </li>
                 <li>Setup machine learning pipeline using Kubernetes and Kubeflow to streamline data pre-processing and model creation, improving efficiency by 40%.</li>
@@ -164,7 +172,7 @@
             <a href="https://www.hansonrobotics.com/" class= "text-a" target="_blank"><h3 class="mb-0">Hanson Robotics</h3>
             <div class="subheading mb-3">Robotics Intern, Core Engineering Team</div></a>
 
-              <ul>
+              <ul class="resume-bullet">
                 <li>Co-authored paper titled A Neuro-Symbolic Humanlike Arm Controller for Sophia the Robot, researching the use of Convolution Neural Networks coupled with symbolic AI for object grasping. <a href="https://arxiv.org/abs/2010.13983">(Link)</a> </li>
                 <li>Constructed kinematic URDF representation of robotic arms to be used in simulation of intricate movements.Implemented AI behavior tree algorithms to enable complex behavior patterns on Sophia, integrating with the Hanson Robotics SDK.  </li>
                 <li> Improved Sophia’s human-robot interaction heuristics and reduced interaction delay by 50%.</li>
@@ -181,7 +189,7 @@
             <a href="https://www.scoutbots.com/protei#/18-scoutbot-mustard/" class= "text-a" target="_blank"><h3 class="mb-0">Makerbay</h3>
             <div class="subheading mb-3">Embedded Computer Vision / Robotics volunteer</div></a>
 
-              <ul>
+              <ul class="resume-bullet">
                 <li>Worked on the coral reef mapping drone that automates the mapping of coral reefs.</li>
                 <li>In charge of the training and deployment of onboard neural network to classify coral types. Built using Tensorflow and Keras</li>
                 <li>Assisted in modifying electronic components to ensure accurate mapping and stitching of images.</li>
@@ -198,7 +206,7 @@
             <a href="https://www.quokkareward.co/en/" class= "text-a" target="_blank"><h3 class="mb-0">Quokka Reward</h3>
             <div class="subheading mb-3">Full Stack Web Developer Intern</div></a>
 
-              <ul>
+              <ul class="resume-bullet">
                 <li>Worked directly under the CTO as Full Stack developer for the Quokka Rewards platform</li>
                 <li>Responsible for the development of Django Restful API as well as data analytics to show effectiveness of the platform.</li>
               </ul>
@@ -214,8 +222,8 @@
               <h3 class="mb-0">The University of Hong Kong</h3>
             <div class="subheading mb-3">Research Assistant</div>
           <!-- </a> -->
-              <ul>
-                <li>Working under Dr. Joe C.H. Yuen on building a cloud-based AI Chabot that helps students learn how to code by answering questions.</li>
+              <ul class="resume-bullet">
+                <li>Working under Dr. Joe C.H. Yuen on building a cloud-based AI Chabot that helps students learn how to code.</li>
                 <li>Responsible for the full stack construction and deployment of the chatbot analyzing hundreds of student submissions for common mistakes.</li>
                 <li>Worked with Machine Learning, Natural Language Processing, Dialogflow, Microsoft Bot Framework, and Node js.</li>
               </ul>
@@ -233,9 +241,8 @@
             <div class="subheading mb-3">Robotics Engineer and STEM Educator </div>
           <!-- </a> -->
 
-              <ul>
+              <ul class="resume-bullet">
                 <li>Demonstrated the workings of a sensory controlled car with Arduino programming and helped students build ones of their own. </li>
-                <li>Held workshops on Artificial Intelligence, Neural Networks, Cryptography, and Deep Learning for high school students. </li>
               </ul>
           </div>
           <div class="resume-date text-md-right">
@@ -294,53 +301,72 @@
         <h2 class="mb-5">Projects</h2>
 
         <div class="container">
-          <!-- <div class="row">
+          <div class="row">
 
-            <div class="col " id = "AI Content Net">
+            <div class="col " >
               <a href="https://github.com/sanjeewk/RecycleNet" target="_blank">
               <img class="img-fluid rounded-circle mx-auto mb-3" src="images/recycle.jpg" alt="" width="140" height="140">
-              <h3>RecycleNet</h3></a>
-              <p>News aggregation and summarisation using NLP techniques.  </p>
+              <h3>NewsCrunch</h3></a>
+              <p>Aggregation and summarisation of daily news using a combination of statistical and deep learning NLP techniques.  </p>
+              <span class="badge badge-dark">Python</span>
+              <span class="badge badge-dark">Django</span>
+              <span class="badge badge-dark">NLP</span>
             </div>
 
             <div class="col">
               <img class="img-fluid rounded-circle mx-auto mb-3" src="images/tiler.png" alt="" width="140" height="140">
               <h3>Raytracer</h3>
-              <p>Tile based puzzle game built using C++ and OLCPixelGameEngine</p>
+              <p>RayTracer</p>
+              <span class="badge badge-dark">Python</span>
+              <span class="badge badge-dark">Django</span>
+              <span class="badge badge-dark">Dark</span>
             </div>
 
-            <div class="col"> 
-              <img class="img-fluid rounded-circle mx-auto mb-3" src="images/face.jpg" alt="" width="140" height="140">
-              <h3>Sharingan</h3>
-              <p>Convolution neural net to detect emotions using facial expressions. Built as part of SDP</p>
+            <div class="col">
+              <a href="https://github.com/sanjeewk/ppnet" target="_blank">
+                <img class="img-fluid rounded-circle mx-auto mb-3" src="images/lidar.jpg" alt="" width="140" height="140">
+                <h3>PointPillarsNet</h3></a>
+                <p>Implemetation of pointpillars net point cloud object detection neural network on the ZCU 102 FPGA board using VITIS AI. Built for human detection, trained on KITI dataset</p>
+              <span class="badge badge-dark">Python</span>
+              <span class="badge badge-dark">Django</span>
+              <span class="badge badge-dark">Dark</span>
             </div>
-          </div> -->
 
 
           <div class="row">
 
             <div class="col-lg-4 col-md-6 " id = "RecycleNet">
               <a href="https://github.com/sanjeewk/RecycleNet" target="_blank">
-              <img class="img-fluid mx-auto mb-3" src="images/recycle.jpg" alt="" width="140" height="140">
+              <img class="img-fluid rounded-circle mx-auto mb-3" src="images/recycle.jpg" alt="" width="140" height="140">
               <h3>RecycleNet</h3></a>
               <p>Deep Learning model to classify different types of waste. Built on Keras using transfer learning and fine tuining. Deployed using flask and AWS</p>
+              <span class="badge badge-dark">Python</span>
+              <span class="badge badge-dark">Django</span>
+              <span class="badge badge-dark">Dark</span>
             </div>
 
             <div class="col-lg-4 col-md-6">
               <img class="img-fluid rounded-circle mx-auto mb-3" src="images/tiler.png" alt="" width="140" height="140">
               <h3>Tiler</h3>
               <p>Tile based puzzle game built using C++ and OLCPixelGameEngine</p>
+              <span class="badge badge-dark">Python</span>
+              <span class="badge badge-dark">Django</span>
+              <span class="badge badge-dark">Dark</span>
             </div>
 
             <div class="col-lg-4 col-md-6"> 
               <img class="img-fluid rounded-circle mx-auto mb-3" src="images/face.jpg" alt="" width="140" height="140">
               <h3>Facial Expression Classifier</h3>
               <p>Convolution neural net to detect emotions using facial expressions. Built as part of SDP</p>
+              <span class="badge badge-dark">Python</span>
+              <span class="badge badge-dark">Django</span>
+              <span class="badge badge-dark">Dark</span>
             </div>
+            
           </div>
 
             
-          <div class="row">
+          <!-- <div class="row">
             <div class="col">
               <a href="https://github.com/sanjeewk/Car-Production-Simulation" target="_blank">
               <img class="img-fluid rounded-circle mx-auto mb-3" src="images/car.jpg" alt="" width="140" height="140">
@@ -356,38 +382,19 @@
               <p>Convolution Neural Net built to classify Coral types. Built using Keras and Tenserflow, with the use of Data Augmentation for increased accuracy. Acheived accuracy of 75%. </p>
             </div>
 
-          
-            <div class="col">
-              <a href="https://github.com/sanjeewk/Corner-Detect" target="_blank">
-              <img class="img-fluid rounded-circle mx-auto mb-3" src="images/corner.jpg" alt="" width="140" height="140">
-              <h3>Corner Detector</h3></a>
-              <p>Python programme that detects and shows corners on images. Built using the Harris corner detection algorithm on python</p>
-            </div>
-          </div>
-          
-           <div class="row">
-
             <div class="col">
               <a href="https://github.com/sanjeewk/Morse-code-encoder-decoder" target="_blank">
               <img class="img-fluid rounded-circle mx-auto mb-3" src="images/morse.jpg" alt="" width="140" height="140">
               <h3>Morse code Encoder and Decoder</h3></a>
               <p>Constructed a Morse code Encoder and Decoder that could decode incoming Morse Code using microphone. Built using Verilog on a FPGA board</p>
             </div>
-
-
             <div class="col">
-              <a href="https://github.com/sanjeewk/ppnet" target="_blank">
-                <img class="img-fluid rounded-circle mx-auto mb-3" src="images/lidar.jpg" alt="" width="140" height="140">
-                <h3>PointPillarsNet</h3></a>
-                <p>Implemetation of pointpillars net point cloud object detection neural network on the ZCU 102 FPGA board using VITIS AI.
-
-                  Built for human detection, trained on KITI dataset</p>
-  
+              <a href="https://github.com/sanjeewk/Corner-Detect" target="_blank">
+              <img class="img-fluid rounded-circle mx-auto mb-3" src="images/corner.jpg" alt="" width="140" height="140">
+              <h3>Corner Detector</h3></a>
+              <p>Python programme that detects and shows corners on images. Built using the Harris corner detection algorithm on python</p>
             </div>
-
-            <div class="col"> 
-
-          </div> 
+          </div> -->
       </div>
     </section>
 
