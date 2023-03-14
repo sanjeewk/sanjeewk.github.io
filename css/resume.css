@@ -6,11 +6,14 @@
   -webkit-font-smoothing: antialiased;
 }
  #particles-js {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(45deg,#130c31cc,#40284c);
-  background: linear-gradient(138deg, #2e2088a8, rgba(88, 1, 1, 0.707)), url(../images/noise.png);
-  background: linear-gradient(138deg, #523af0a8, rgba(68, 1, 88, 0.707)), url(../images/noise.png);
+  /* background: rgb(255, 255, 255); */
+  /* background: linear-gradient(45deg,#130c31cc,#40284c); */
+  /* background: linear-gradient(138deg, #2e2088a8, rgba(88, 1, 1, 0.707)), url(../images/noise.png); */
 
+  /* filter: contrast(200%);  */
+  /* filter: brightness(300%); */
+
+  background: linear-gradient(138deg, #523af0a8, rgba(68, 1, 88, 0.707)), url(../images/noise.png);
   filter: contrast(200%) brightness(300%);
   height: 100%;
   z-index: -1;
@@ -20,11 +23,6 @@
   bottom: 0;
   left: 0;
   margin-bottom: 0;
-  backdrop-filter: blur(100px);
-
-  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab), url(../images/grain3.svg);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite; */
 }
 
 @keyframes gradient {
