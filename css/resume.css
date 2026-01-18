@@ -273,3 +273,89 @@ a {
 a:hover, a:focus, a:active {
   color: #8B0000!important;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .landing {
+    font-size: 2.5rem;
+    line-height: 60px;
+    letter-spacing: 5px;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .subheading {
+    font-size: 0.9rem;
+  }
+
+  .social-icons a {
+    height: 1.8rem;
+    width: 1.8rem;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    margin-right: 0.8rem;
+  }
+
+  #sideNav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  #sideNav .navbar-brand {
+    margin: 0;
+  }
+
+  #sideNav .navbar-brand .img-profile {
+    max-width: 4rem;
+    max-height: 4rem;
+    border: 0.3rem solid rgba(255, 255, 255, 0.2);
+  }
+
+  #sideNav .navbar-collapse {
+    margin-bottom: 0;
+  }
+
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  .resume-item .resume-date {
+    text-align: left !important;
+    margin-top: 0.5rem;
+  }
+
+  .resume-picture img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .resume-content {
+    padding-left: 0;
+  }
+
+  /* Projects section */
+  .col-lg-4, .col-md-6 {
+    margin-bottom: 2rem;
+  }
+
+  /* Interests images */
+  #interests img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+}
+
